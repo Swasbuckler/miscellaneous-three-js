@@ -1,0 +1,83 @@
+.app-container {
+    position: relative;
+}
+
+.three-nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    border: 1px solid white;
+}
+
+.nav-home {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.nav-home a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-category {
+    position: relative;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+}
+
+.nav-content {
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 100%;
+    display: none;
+    flex-direction: column;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    border: 1px solid white;
+}
+
+.nav-content::before {
+    content: '';
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: -10px;
+    width: 0;
+	height: 0;
+	border-left: 8px solid transparent;
+	border-right: 8px solid transparent;
+	border-bottom: 10px solid white;
+}
+
+.nav-content a {
+    text-decoration: none;
+    color: white;
+    white-space: nowrap;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav-content a + a {
+    border-top: 1px solid white;
+}
+
+.nav-category:hover .nav-content {
+    display: flex;
+}
+
+router-outlet {
+    position: absolute;
+    left: 0;
+    top: 0;
+}

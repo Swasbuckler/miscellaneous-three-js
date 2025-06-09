@@ -1,59 +1,37 @@
-# Miscellaneous
+# This project consists of Miscellaneous ThreeJS Projects and Tutorials Done
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+The Tutorials Followed includes:
+1. SimonDev's YouTube video, "[How do Major Video Games Render Grass?](https://www.youtube.com/watch?v=bp7REZBV4P4)"
+2. Visionary 3D's YouTube video, "[Three.js Shaders (GLSL) Crash Course For Absolute Beginners](https://www.youtube.com/watch?v=oKbCaj1J6EI)"
+3. Kishimisu's YouTube video, "[An introduction to Raymarching](https://www.youtube.com/watch?v=khblXafu7iA)"
+4. Maxime Heckel's Blog on Cloudscapes, "[Real-time dreamy Cloudscapes with Volumetric Raymarching](https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/)"
 
-## Development server
+The resulting application is hosted on GitHub Pages and can be accessed here:
 
-To start a local development server, run:
+## What have I Achieved and Learnt through this Project
 
-```bash
-ng serve
-```
+Doing these Projects were a fun hobby as I was able to explore my interest with ThreeJS and I got to learn a lot on GLSL and Shaders. I am interested in working on more similar projects in the future.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Screenshots
 
-## Code scaffolding
+### Tutorials
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+<img src="git_images/shader_tutorial_image.png" height="400px" />\
+Shader Tutorial
 
-```bash
-ng generate component component-name
-```
+<img src="git_images/grass_tutorial_image.png" height="300px" />\
+Grass Tutorial
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+<img src="git_images/raymarching_tutorial_image.png" height="400px" />\
+Raymarching Tutorial
 
-```bash
-ng generate --help
-```
+<img src="git_images/cloud_tutorial_image.png" height="300px" />\
+Cloud Tutorial
 
-## Building
+### Projects
 
-To build the project run:
+<img src="git_images/shader_project_image.png" height="400px" />\
+Shader Project
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<img src="git_images/complied_project_image.png" height="400px" />\
+Complied Shader Project
