@@ -6,7 +6,7 @@ The Tutorials Followed includes:
 3. Kishimisu's YouTube video, "[An introduction to Raymarching](https://www.youtube.com/watch?v=khblXafu7iA)"
 4. Maxime Heckel's Blog on Cloudscapes, "[Real-time dreamy Cloudscapes with Volumetric Raymarching](https://blog.maximeheckel.com/posts/real-time-cloudscapes-with-volumetric-raymarching/)"
 
-The resulting application is hosted on GitHub Pages and can be accessed here:
+The resulting application is hosted on GitHub Pages and can be accessed here: https://swasbuckler.github.io/miscellaneous-three-js/
 
 ## What have I Achieved and Learnt through this Project
 
